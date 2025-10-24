@@ -1,6 +1,7 @@
 package com.mia;
 
 /**
+ * 6.7.4
  * 局部内部类示例
  */
 public class LocalInnerClass {

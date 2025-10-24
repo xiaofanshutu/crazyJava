@@ -1,5 +1,11 @@
 package com.mia;
 
+/**
+ * 6.7.5
+ * 演示匿名内部类
+ */
+
+// 抽象类Device，有两个构造器，一个有参构造器，一个无参构造器
 abstract class Device {
     private String name;
 
@@ -22,6 +28,7 @@ abstract class Device {
 }
 
 public class AnonymousInner {
+    // 接收一个Device类型的参数
     public void test(Device d) {
         System.out.println("设备名称: " + d.getName());
         System.out.println("设备价格: " + d.getPrice());

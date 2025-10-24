@@ -1,5 +1,9 @@
 package com.mia;
 
+/**
+ * 6.7.2
+ * 访问静态内部类的成员
+ */
 public class AccessStaticInnerClass {
     static class StaticInnerClass {
         private static int prop1 = 9;
@@ -21,5 +25,9 @@ public class AccessStaticInnerClass {
     public static void main(String[] args) {
         AccessStaticInnerClass accessStaticInnerClass = new AccessStaticInnerClass();
         accessStaticInnerClass.accessInnerProp();
+
+
+        StaticInnerClass staticInnerClass = new StaticInnerClass();
+        System.out.println(staticInnerClass.prop2);
     }
 }

@@ -1,5 +1,9 @@
 package com.mia;
 
+/**
+ * 6.7.3
+ * 创建非静态内部类的实例
+ */
 public class CreateInnerInstance {
     public static void main(String[] args) {
         Out out = new Out();
